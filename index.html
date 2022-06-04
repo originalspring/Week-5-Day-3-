@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+   <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="style.css">  
+
+    
+
+
+</head>
+<body id="home">
+    <div id="container">
+       <header>
+           <div class="main-header">
+        <div class="logo">
+            <img src="image/logo.png" alt="Ocean view cliff" width="125">
+        </div>
+        
+        <nav class="main-menu"> 
+            <ul>
+                <li class="active"> <a href="index.html">  Home</a></li>
+                <li> Cliffs</li>
+                <li> <a href="Activities.html">   Activities</a></li>
+                <li> <a href="Contact.html">  Contact</a></li>
+             </ul>
+        </nav> 
+
+    </div>
+    </header>
+
+    <section id="timeofday">
+        <span><p fontcolor=#fff> Your current local time:</p></span>
+        <span id="clock"></span> 
+    </section>
+
+
+
+    </section>
+
+
+
+    <main>
+        <h1>Introducing California's Greatest Cliffs</h1>
+        <p>California cliffs are one of a kind in the United States where no cliffs are as magnificent and beautiful as them. And California is the only state that have cliffs that fronts all possible environments: sea, river, mountains and canyons. There are four such individual unique cliffs: West Cliff, North Cliff, East Cliff and South Cliff. 
+            All offer fantastic overlooking views, recreational areas, camping sites, wildlife watch spots and overnight cabins.</p>
+        <h1>Where are these cliffs?</h1>
+        <p>Located within a 100 mile radius from Irvine, California, they can be reached by roads easily. 
+        The closest cliff to Irvine is West Cliff, which is the most popular and most visited.</p>
+    </main>
+    <section>
+     <ul id="partner">
+     <!--<li class="partner">
+             <img src="image/partner/partner-bustour.png" alt="Partner Bus Tour">
+         </li>
+
+         <li class="partner">
+            <img src="image/partner/partner-cabinrental.png" alt="Partner Cabin Rental">
+        </li>
+
+        <li class="partner">
+            <img src="image/partner/partner-campingadv.png" alt="Partner Camp">
+        </li>
+
+        <li class="partner">
+            <img src="image/partner/partner-collegetours.png" alt="collegetours">
+        </li> -->
+
+    </ul>
+
+    </section>
+    </div>
+
+   
+
+    <footer>
+        <div id="nondisclaimer"></div>
+            <div class="copy"></div>
+            <div class="social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-instagram"></a>
+            </div>
+            </div>
+        <div id="disclaimer"></div>
+        <p>Copyright 2020 :: GreatCliffs.com
+        </p>
+    </footer>
+
+    <!--javascript codes-->
+    <!--digital Clock-->
+    <script src="js/digclock.js"></script>
+
+     <!--partners-->
+     <script src="js/site_scripts.js"></script>
+
+     <script> var socialIcon = ["partner-bustour.png","partner-cabinrental.png","partner-campingadv.png","partner-collegetour.png"];//empty array
+        var imageList = [];
+        var image;
+        var openList = "<li id='socialIcon'>";
+        var closeList = "</li>"
+   
+   
+        
+        
+        
+        
+        for (var i=0; i<4; i++){
+            //socialIcon[i];
+            var openImage = "<image src='image/partner/'" + socialIcon[i] + '>';
+        
+           image = openList + openImage +  closeList;
+        
+           imageList.push(image);
+        
+           document.getElementById("partner").innerHTML= imageList;
+        }
+   
+       
+          </script>
+    
+        
+      
+         <!--//var photos = [];//empty array
+         //var fileNames = []; //empty array
+         //var imageList = [];
+         //var image;
+         //var openList = "<li id='photo'>";
+         //var closeList = "</li>"
+
+
+         //var title;
+         //var photoname = ["photoname1", "photoname2", "photoname3",
+         //"photoname4","photoname5", "photoname6"];
+         //var titleOpenList="<p id='title'>";
+         //var titleCloseList="</p>"
+
+         //var openList1 = "<li id='photo"
+         //var openList2 = "'>"; //Declare a variable to contain open list tag
+         //var closeList = "</li>"; //Declare a variable to contain an close list tag
+         -->
+
+
+
+
+
+
+
+
+
+</body>
+</html>
